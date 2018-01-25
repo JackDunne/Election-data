@@ -1,5 +1,23 @@
+const sort = Require('./Sort.js');
+
+//1st dash of readme
+function atLeast(array, number){
+  let states = ["AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DC",
+    "DE", "FL", "GA", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA",
+    "MA", "MD", "ME", "MI", "MN", "MO", "MS", "MT", "NC", "ND", "NE",
+    "NH", "NJ", "NM", "NV", "NY", "OH", "OK", "OR", "PA", "RI", "SC",
+    "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV", "WY")];
+  let totals = new Array(50);
+  totals.fill(0);
+  for(let x = 0;x<array.length;x++){
+    if(array[x].fips == 0){//experiment with a while loop
+      continue;
+    }
+    else if()
+  }
+}
+
 //2nd dash of readme
-const sort = Require('./Sort.js')
 function findStates(array){
   let states = [];
   for(let x = 0;x<array.length;x++){
